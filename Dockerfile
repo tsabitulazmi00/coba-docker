@@ -8,4 +8,4 @@ RUN yum -y install nginx
 
 WORKDIR /root
 
-RUN systemctl start nginx
+CMD ["nginx", "-g", "daemon off;"]
