@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 
 USER root
 RUN cat /usr/share/zoneinfo/Asia/Jakarta > /etc/localtime
